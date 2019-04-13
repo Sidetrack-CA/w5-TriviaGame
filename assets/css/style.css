@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg { 
+    /* The image used */
+    background-image: url("../images/tryvia-start2.jpg");
+  
+    /* Full height */
+    margin: 0;
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .gameBg { 
+    /* The image used */
+    background-image: url("../images/game-bg.jpg");
+  
+    /* Full height */
+    margin: 0;
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* #score {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      color: white;
+  } */
+  #cardSpace, .container {
+      position: absolute;
+      top: 35%;
+      left: 5%;
+      width: 90%;
+  }
+  #questionsSpace, #timerSpace {
+    top: 25%;
+    width: 100%;
+  }
+  #timeLeft {
+      color: white;
+      font-size: 26pt;
+      text-align: center;
+  }
+  #questionForward {
+      color: white;
+      font-size: 26pt;
+      text-align: center;
+  }
